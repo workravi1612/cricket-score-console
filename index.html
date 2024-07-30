@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cricket</title>
+  </head>
+  <body>  
+    <h1>Cricket Score Console</h1>
+
+    <main>
+      <button class="button" onclick="run(0)">0</button>
+      <button class="button" onclick="run(1)">1</button>
+      <button class="button" onclick="run(2)">2</button>
+      <button class="button" onclick="run(3)">3</button>
+      <button class="button" onclick="run(4)">4</button>
+      <button class="button" onclick="run(6)">6</button>
+      <button class="button" onclick="run(7)">OUT</button>
+      <button class="button" onclick=" run(8)">Wide</button>
+      <button class="button" onclick="run(8)">No Ball</button>
+      <button
+        class="button"
+        type="button"
+        id="clear"
+        onclick="location.reload()"
+      >
+        Clear
+      </button>
+    </main>
+    <center>
+      
+      <table>
+        <tr>
+          <th>Score </th>
+          <th><p id="score">0</p></th>
+        </tr>
+        <tr>
+          <th>Wickets</th>
+          <th><p id="wickets">0</p></th>
+        </tr>
+        <tr>
+          <th>Balls</th>
+          <th> <p id="balls">0</p></th>
+        </tr>
+        <tr>
+        <th>over</th>
+        <th><p id="over">0</p></th>
+      </tr>
+      
+    </table>
+  </center>
+    <script src="script.js"></script>
+  </body>
+</html>
